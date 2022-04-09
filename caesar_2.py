@@ -34,7 +34,8 @@ def caesar_decrypt(cipher_text):
         result = result + chr(new_char_position)
         print(result)
     return result
-text = "PICOcft"
+print("?")
+text = str(input())
 print(f"Plain Text: {text}")
 cipher_text = caesar_encrypt(text)
 print(f"Encrypted: {cipher_text}")
