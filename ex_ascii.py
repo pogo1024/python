@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 print("HIT ME")
 w = str(input())
 list1 = list(w.strip())
