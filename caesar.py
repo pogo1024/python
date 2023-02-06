@@ -29,4 +29,3 @@ print(f"Encrypted: {caesar_encrypt(cipher_text)}")
 cipher_text = caesar_decrypt(text)
 print(f"Decrypted: {caesar_decrypt(cipher_text)}")
 
-
