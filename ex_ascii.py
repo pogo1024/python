@@ -11,5 +11,5 @@ w = list(input())
 # print(z)
 
 z = list(map(ord,w))
-kk = list(map(hex,z))
+kk =list(map(hex,z))
 print(kk)
