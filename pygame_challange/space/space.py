@@ -15,7 +15,7 @@ class Player(pygame.sprite.Sprite):
         #cooldown
         self.can_shoot = True
         self.laser_shoot_time = 0
-        self.cooldown_duration = 400
+        self.cooldown_duration = 40
 
 
     def laser_timer(self):
@@ -168,7 +168,7 @@ laser_sound.set_volume(0.1)
 explosion_sound = pygame.mixer.Sound(join('audio', 'explosion.wav'))
 explosion_sound.set_volume(0.1)
 
-game_music = pygame.mixer.Sound(join('audio', 'game_music.wav'))
+game_music = pygame.mixer.Sound(join('audio', 'music.wav'))
 game_music.set_volume(0.1)
 game_music.play(loops = -1)
 
